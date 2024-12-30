@@ -1,7 +1,7 @@
 import cv2
 
 #read video
-video_path = r"C:\Users\melwi\Desktop\ML\project1\Open CV\videoin.mp4"
+video_path = r"C:\Users\melwi\Desktop\ML\project1\Open CV\basics\videoin.mp4"
 video = cv2.VideoCapture(video_path)
 
 #visualize video
