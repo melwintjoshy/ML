@@ -4,7 +4,8 @@ import numpy as np
 image_path = r"C:\Users\melwi\Desktop\ML\project1\Open CV\basics\rono.webp"
 
 img = cv2.imread(image_path)
-blurred = cv2.GaussianBlur(img, (3, 5), 5) #helps to reduce noise and smoothens the edges, which is useful for obtaining better edge detection results.
+blurred = cv2.GaussianBlur(img, (3, 5), 5) #helps to reduce noise and smoothens the edges,
+                                           #which is useful for obtaining better edge detection results.
 
 #canny edge detection algorithm
 img_edge = cv2.Canny(blurred, 30, 200)
